@@ -1,0 +1,58 @@
+body{
+    font-family: "Fira Sans", Helvetica, sans-serif;
+}
+.header{
+    /* height: 700px; */
+    width: 100%;
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .container_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px 0;
+}
+.header .container_header .myimage{
+    width: 350px;
+    border-radius: 500px;
+    border: 8px solid #ffffff;
+    background-color: #ffffff;
+    filter: grayscale(50%);
+}
+.header .container_header .misDatos{
+    width: 700px;
+    color: #ffffff;
+}
+.header .container_header .misDatos h1{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.header .container_header .misDatos p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.header .container_header .misDatos h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.header .container_header .misDatos h2 .text_english{
+    font-size: 16px;
+    font-weight: 300;
+    color: #bebebe;
+    font-style: italic;
+}
+.header .container_header .misDatos .container_habilidades{
+
+}
+.header .container_header .misDatos .container_habilidades span{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
