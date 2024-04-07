@@ -13,46 +13,101 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 150px 0;
+    padding: 100px 0 100px 0;
 }
 .header .container_header .myimage{
     width: 350px;
     border-radius: 500px;
     border: 8px solid #ffffff;
     background-color: #ffffff;
-    filter: grayscale(50%);
+    filter: grayscale(10%);
+    margin: 10px 0
 }
-.header .container_header .misDatos{
+.header .container_header .mi_informacion{
     width: 700px;
     color: #ffffff;
+    margin: 10px 20px;
 }
-.header .container_header .misDatos h1{
+.header .container_header .mi_informacion h1{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 800;
     font-size: 50px;
     letter-spacing: 2px;
 }
-.header .container_header .misDatos p{
+.header .container_header .mi_informacion p{
     font-weight: 300;
     font-size: 20px;
 }
-.header .container_header .misDatos h2{
+.header .container_header .mi_informacion h2{
     font-size: 20px;
     letter-spacing: 1px;
     margin-top: 30px;
 }
-.header .container_header .misDatos h2 .text_english{
+.header .container_header .mi_informacion h2 .text_english{
     font-size: 16px;
     font-weight: 300;
     color: #bebebe;
     font-style: italic;
 }
-.header .container_header .misDatos .container_habilidades{
+.header .container_header .mi_informacion .container_habilidades{
 
 }
-.header .container_header .misDatos .container_habilidades span{
+.header .container_header .mi_informacion .container_habilidades span{
     background-color: #ffffff;
     color: #000000;
     padding: 5px 10px;
     margin-right: 10px;
+}
+/* Section Mis datos */
+.section_misdatos{
+    background-color: #f7f7f7;
+    padding: 70px 0 50px 0;
+}
+.container_datos{
+ 
+}
+.container_misdatos{
+    text-align: center;
+    color: #333333;
+}
+.container_misdatos h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.container_misdatos .container_dato {
+    margin: 20px 0;
+}
+.container_misdatos .container_dato h4{
+    font-size: 16px;
+    margin: 0;
+    text-decoration: underline;
+}
+.container_misdatos .container_dato p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Section portafolio */
+.section_portafolio{
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+.section_portafolio h2{
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    background-color: #000000;
+}
+.footer p{
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0 0 0;
 }
