@@ -16,7 +16,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid container">
           <a class="navbar-brand" href="#">Marco /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,21 +25,18 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Yo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#scrollspyHeading1">Mis Datos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#scrollspyHeading2">Portafolio</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
 
       <!-- header -->
@@ -67,7 +64,7 @@
     </header>
 
     <!-- Section mis datos -->
-    <section class="section_misdatos">
+    <section id="scrollspyHeading1" class="section_misdatos">
         <div class="container ">
             <div class="row flex-md-nowrap container_datos">
                 <!-- Estudios -->
@@ -113,43 +110,43 @@
 
 
      <!--Portafolio  -->
-    <section class="container">
+    <section id="scrollspyHeading2" class="container">
         <div class="row section_portafolio">
             <h2>Portafolio</h2>
             <div class="col-12 col-md-6 col-lg-4">
                 <!-- Card -->
-                <div class="card mb-3">
-                    <img src="./assets/img/page-css.jpg" class="card-img-top" alt="...">
+                <a href="https://markobarraza.github.io/landingcss_dlatam/" target="_blank" class="card mb-3 h-100 shadow">
+                    <img src="./assets/img/page-css.jpg" class="card-img-top" alt="Pagina basica css">
                     <div class="card-body">
                       <h5 class="card-title">CSS Page</h5>
                       <p class="card-text">Pagina creada practicando estilos basicos de CSS</p>
                       <p class="card-text"><small class="text-body-secondary">ver mas ></small></p>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <!-- Card -->
-                <div class="card mb-3">
-                    <img src="./assets/img/page-cupon.jpg" class="card-img-top" alt="...">
+                <a href="https://markobarraza.github.io/cuponPage_dLlatam/" target="_blank" class="card mb-3 h-100 shadow">
+                    <img src="./assets/img/page-cupon.jpg" class="card-img-top" alt="pagina cupon">
                     <div class="card-body">
                       <h5 class="card-title">Cupon Page</h5>
                       <p class="card-text">Pagina creada practicando la implementación de Bootstrap</p>
                       <p class="card-text"><small class="text-body-secondary">ver mas ></small></p>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
                 <!-- Card -->
-                <div class="card mb-3">
-                    <img src="./assets/img/page-iguana.jpg" class="card-img-top" alt="...">
+                <a href="https://markobarraza.github.io/iguanaPage_dlatam/" target="_blank" class="card mb-3 h-100 shadow">
+                    <img src="./assets/img/page-iguana.jpg" class="card-img-top" alt="Pagina Iguana">
                     <div class="card-body">
                       <h5 class="card-title">Iguana Page</h5>
                       <p class="card-text">Pagina creada practicando Flexbox</p>
                       <p class="card-text"><small class="text-body-secondary">ver mas ></small></p>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>
@@ -157,9 +154,7 @@
 
 
     <footer class="footer">
-        <div class="row">
             <p>Marco Barraza | 2024®</p>
-        </div>
     </footer>
     
 
