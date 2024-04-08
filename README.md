@@ -3,7 +3,7 @@
 **mi CV page**
 https://markobarraza.github.io/
 
-**Proyectos forkeados de compañeros**
+**Proyectos Proyectos que se hicieron Fork**
 
 https://github.com/markobarraza/Lunatico87.github.io
 
