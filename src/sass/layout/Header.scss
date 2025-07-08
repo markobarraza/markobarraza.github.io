@@ -1,0 +1,19 @@
+@use '../Abstracts/variables';
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    
+    .header_titulo{
+        font-size: 5.5rem;
+        font-weight: 900;
+        letter-spacing: .2rem;
+        color: variables.$color3;
+        .header_typed{
+            margin: 0 20px;
+            color: variables.$color1;
+        }
+    }
+}

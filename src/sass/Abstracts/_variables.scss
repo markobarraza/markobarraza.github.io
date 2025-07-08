@@ -1,0 +1,20 @@
+// Colores
+$color1: #CCD0CF;
+$color2: #9BA8AB;
+$color3: #4A5C6A;
+$color4: #253745;
+$color5: #11212D;
+$color6: #06121B;
+
+// Medias Queries
+@mixin tablet{
+    @media screen and (max-width: 768px){
+        @content;
+    }   
+}
+@mixin mobile{
+    @media screen and (max-width: 576px){
+        @content;
+    }   
+}
+

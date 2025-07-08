@@ -1,0 +1,23 @@
+@use '../Abstracts/variables';
+
+body{
+    font-family:"Roboto", sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #102D42;
+    background: linear-gradient(-47deg, rgba(16, 45, 66, 1) 0%, rgba(11, 31, 43, 1) 28%, rgba(6, 18, 27, 1) 52%, rgba(11, 31, 43, 1) 80%, rgba(24, 67, 99, 1) 100%);
+    background: linear-gradient(-47deg,rgba(16, 42, 62, 1) 0%, rgba(7, 21, 31, 1) 53%, rgba(19, 54, 80, 1) 100%);    
+    // height: 100vh;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

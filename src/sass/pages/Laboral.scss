@@ -1,0 +1,92 @@
+@use '../Abstracts/variables';
+
+.laboral_container{
+    background-color: variables.$color4;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    color: variables.$color1;
+    .laboral_container-titulo{
+        font-size: 1.5rem;
+        letter-spacing: .09rem;
+        font-weight: 500;
+        margin: 20px 30px;
+    }
+    .laboral_inner-container{
+        display: flex;
+        justify-content: center;
+        height: 80%;
+        margin: 0 30px;
+        // margin: 10px 0 0 0;
+        .laboral_titulos{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+            width: 30%;
+            position: relative;
+            margin-right: 20px;
+            
+            .laboral_titulos-linea{
+                height: 80%;
+                width: 3px;
+                background-color: variables.$color1;
+                position: absolute;
+                left: 6px;
+            }
+            .laboral_titulos-container{
+                display: flex;
+                align-items: center;
+                .laboral_titulos-punto{
+                    width: 15px;
+                    height: 15px;
+                    background-color: variables.$color1;
+                    border-radius: 100%;
+                }
+                .laboral_titulos-inner-container-inactive{
+                    border-bottom: solid .1rem variables.$color3;
+                    padding: 0 0 7px 0;
+                    margin: 0 0 0 10px;
+                    color: variables.$color3;
+                    h4{
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: .85rem;
+                    }
+                    &:hover{
+                        color: variables.$color1;
+                        border-bottom: solid .1rem variables.$color1;
+                        transition: 1s;
+                    }
+                    &:not(:hover){
+                        color: variables.$color3;
+                        border-bottom: solid .1rem variables.$color3;
+                        transition: 1s;
+                    }
+                }
+                .laboral_titulos-inner-container{
+                    border-bottom: solid .1rem variables.$color1;
+                    padding: 0 0 7px 0;
+                    margin: 0 0 0 10px;
+                    color: variables.$color1;
+                    h4{
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: .85rem;
+                    }
+                }
+                
+            }
+        }
+        .laboral_info-container{
+            background-color: variables.$color3;
+            border-radius: 7px;
+            width: 70%;
+            
+        }
+    }
+}

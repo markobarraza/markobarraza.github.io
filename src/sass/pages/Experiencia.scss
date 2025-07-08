@@ -1,0 +1,23 @@
+@use '../Abstracts/variables';
+
+.experiencia_container{
+    padding: 20px;
+    .experiencia_titulo{
+        font-size: 1.4rem;
+        color: variables.$color1;
+    }
+    ul{
+        .experiencia_titulo{
+            font-size: .95rem;
+            font-weight: 500;
+            margin: 10px 0;
+            color: variables.$color1;
+        }
+        .experiencia_textos{
+            font-size: .95rem;
+            margin-top: 3px;
+            color: variables.$color2;
+        }
+    }
+}
+
