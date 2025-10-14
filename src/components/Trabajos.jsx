@@ -5,6 +5,7 @@ import vitamin from '../assets/vitamin.jpg'
 import actbrand from '../assets/actbrand.jpg'
 import muebles from '../assets/muebles.jpg'
 import gamer from '../assets/gamer.jpg'
+import cuponera from '../assets/cuponera.jpg'
 import { NavLink } from 'react-router-dom'
 import { Element } from 'react-scroll'
 
@@ -17,6 +18,22 @@ const Trabajos = () => {
           <h3 className='trabajos_titulo'>Trabajos</h3>
           <div className="trabajos_inner-container">
 
+            <div className="trabajo_card">
+              <div className="prueba">
+                <NavLink to="https://markobarraza.github.io/cuponera/" target="_blank" className="url_card">
+                  <i class="fa-brands fa-github"></i>
+                </NavLink>
+                <NavLink to="https://github.com/markobarraza/cuponera" target="_blank" className="url_card">
+                  <i class="fa-solid fa-link"></i>
+                </NavLink>
+                  
+                
+                
+              </div>
+              <img className='img_card' src={cuponera} alt="" />
+            </div>
+            
+            
             <NavLink to="https://markobarraza.github.io/ntg-sport/" target="_blank" className="trabajo_card">
               <div className="prueba">ver</div>
               <img className='img_card' src={ntg} alt="" />
