@@ -21,10 +21,10 @@ const Trabajos = () => {
             <div className="trabajo_card">
               <div className="prueba">
                 <NavLink to="https://markobarraza.github.io/cuponera/" target="_blank" className="url_card">
-                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-solid fa-link"></i>
                 </NavLink>
                 <NavLink to="https://github.com/markobarraza/cuponera" target="_blank" className="url_card">
-                  <i class="fa-solid fa-link"></i>
+                  <i class="fa-brands fa-github"></i>
                 </NavLink>
                   
                 
